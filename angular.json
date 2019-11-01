@@ -20,7 +20,7 @@
             "main": "apps/ng-atlanta/src/main.ts",
             "polyfills": "apps/ng-atlanta/src/polyfills.ts",
             "tsConfig": "apps/ng-atlanta/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "apps/ng-atlanta/src/favicon.ico",
               "apps/ng-atlanta/src/assets"
@@ -41,7 +41,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
